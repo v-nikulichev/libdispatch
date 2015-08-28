@@ -272,7 +272,6 @@ configure_file("config/config.h.cmake.in"
 ################################################################################
 
 add_subdirectory(src)
-add_subdirectory(testing)
 
 # Install man pages
 add_subdirectory(man)
