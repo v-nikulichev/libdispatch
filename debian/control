@@ -1,0 +1,20 @@
+Source: yandex-libdispatch0
+Section: universe/libs
+Priority: extra
+Maintainer: Vladimir Nikulichev <saturnus@yandex-team.ru>
+Build-Depends: debhelper (>= 8.0.0), pkg-config, autotools-dev, libblocksruntime-dev (>= 0.1),
+    libc6-dev (>= 2.15), libkqueue-dev (>= 0.9.2), libpthread-workqueue-dev, clang
+Standards-Version: 3.9.2
+Homepage: http://nickhutchinson.me/libdispatch
+Vcs-Git: git://github.com/v-nikulichev/libdispatch -b yandex-libdispatch-precise
+
+Package: yandex-libdispatch0
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkqueue0 (>= 0.9.2), libpthread-workqueue0
+Description: Linux port of Apple's open-source concurrency library
+ Grand Central Dispatch (GCD) is Apple's high-performance event-handling
+ library, introduced in OS X Snow Leopard. It provides asynchronous task
+ queues, monitoring of file descriptor read and write-ability, asynchronous
+ I/O (for sockets and regular files), readers-writer locks, parallel
+ for-loops, sane signal handling, periodic timers, semaphores and more.
+ See https://github.com/nickhutchinson/libdispatch/blob/master/README.md

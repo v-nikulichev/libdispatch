@@ -1,0 +1,5 @@
+yandex-libdispatch0 (0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Vladimir Nikulichev <saturnus@yandex-team.ru>  Fri, 28 Aug 2015 20:33:49 +0300
