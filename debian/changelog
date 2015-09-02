@@ -1,3 +1,9 @@
+yandex-libdispatch0 (0.0-2) unstable; urgency=low
+
+  * Fixed a list of package dependencies.
+
+ -- Vladimir Nikulichev <saturnus@yandex-team.ru>  Wed, 2 Sep 2015 14:40:00 +0300
+
 yandex-libdispatch0 (0.0-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
